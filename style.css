@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(177, 225, 255);
+    color: rgb(0, 58, 94);
+}
+
+/* Home - Header */
+#headerDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.7)),
+        url("assets/logo-1080.jpg");
+    background-size: cover;
+    background-position: center;
+    /* background-color: aquamarine; */
+}
+
+#headerLogoDiv {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#headerLogoDiv h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+#siteLogo {
+    border-radius: 50%;
+}
+
+#headerLinksDiv {
+    display: flex;
+    justify-content: space-between;
+    gap: 3vw;
+}
+
+#headerLinksDiv a {
+    font-size: 1.2rem;
+    color: #cccccc;
+    text-decoration: none;
+}
+
+#headerLinksDiv a:hover {
+    color: #ffffff;
+}
